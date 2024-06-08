@@ -1,0 +1,29 @@
+{
+  "name": "backend-project-starter",
+  "version": "1.0.0",
+  "description": "Initial Backend Project set up starter with nodejs expressjs mongoose dotenv bcrypt",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Abu",
+    "Bakar",
+    "mongoose",
+    "nodejs",
+    "expressjs",
+    "dotenv",
+    "bcrypt"
+  ],
+  "author": "Abu Bakar",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  }
+}
